@@ -34,11 +34,11 @@ For example,
     "pluginsConfig": {
         "ads": [
             {
-            "client": "ca-pub-XXXXXXXXXXXXXXXX",
-            "slot": "XXXXXXXXXX",
-            "format": "auto",
-            "location": ".page-inner section",
-            "style": "width: 100px;"
+                "client": "ca-pub-XXXXXXXXXXXXXXXX",
+                "slot": "XXXXXXXXXX",
+                "format": "auto",
+                "location": ".page-inner section",
+                "style": "width: 100px;"
             }
         ]
     }
