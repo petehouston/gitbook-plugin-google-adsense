@@ -1,0 +1,33 @@
+{
+	"name": "gitbook-plugin-google-adsense",
+	"description": "Inject Google Adsense to your Gitbook.",
+	"author": "Pete Houston <contact@petehouston.com> (http://petehouston.com)",
+	"main": "index.js",
+	"version": "0.1.0",
+	"keywords": [
+		"gitbook",
+		"plugin",
+		"adsense"
+	],
+	"engines": {
+		"gitbook": ">=2.5.1"
+	},
+	"homepage": "https://github.com/petehouston/gitbook-plugin-google-adsense",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/petehouston/gitbook-plugin-google-adsense.git"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/petehouston/gitbook-plugin-google-adsense/issues"
+	},
+	"gitbook": {
+		"properties": {
+			"ads": {
+				"type": "array",
+				"title": "Array of Ad block",
+				"required": true
+			}
+		}
+	}
+}
