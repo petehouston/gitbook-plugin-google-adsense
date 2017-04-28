@@ -17,8 +17,11 @@ require(["gitbook"], function(gitbook) {
     function injectAds(configs) {
         if(configs && configs.length > 0) {
             configs.forEach(function(c) {
-                document.querySelector(c.location).appendChild(createAdElement(c));
-                (adsbygoogle = window.adsbygoogle || []).push({});
+                var ele = document.querySelector(c.location);
+                if (ele !== null) {
+                    ele.appendChild(createAdElement(c));
+                    (adsbygoogle = window.adsbygoogle || []).push({});   
+                }
             });
         }
     }
